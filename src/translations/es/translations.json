@@ -1,0 +1,46 @@
+{
+  "404": {
+    "notFound": "Página no encontrada",
+    "description": "¡Ups! Parece que has llegado a una página inexistente. Lo sentimos, pero la página que estás buscando no está disponible. Te invitamos a regresar a la página principal o contactarnos a través de nuestros canales de soporte para obtener ayuda.",
+    "home": "Volver al inicio",
+    "contact": "Contáctanos"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Acerca de"
+  },
+  "footer": {
+    "by": "Por Deco31416 | V-0.0.1",
+    "website": "Sitio Web",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "demoText": "© {{year}} Solo para demostración"
+  },
+  "home": {
+    "welcome": "Bienvenido a FacialTrustPay",
+    "description": "Este es un MVP diseñado para facilitar micropagos mediante el reconocimiento facial, aprovechando la tecnología blockchain para garantizar transacciones seguras y rápidas. Más información en ",
+    "learnMoreButton": "Lee Más en Medium",
+    "connectWalletButton": "Conectar MetaMask",
+    "connectedStatus": "Estás conectado",
+    "disconnectedStatus": "No estás conectado"
+  },
+  "cookiePolicy": {
+    "title": "Políticas de Cookies",
+    "description": "Cuando visita nuestro sitio web y brinda su consentimiento, utilizaremos cookies propias y de terceros y tecnologías similares para mejorar su experiencia, analizar el tráfico, garantizar la seguridad y fines de marketing. Si no selecciona ninguna de las dos opciones, el banner volverá a aparecer cada vez que visite nuestro sitio web. Para obtener más información sobre las cookies, consulte nuestra Política de Privacidad.",
+    "customize": "Personalizar",
+    "acceptAll": "Aceptar todo",
+    "customizeTitle": "Personalizar Cookies",
+    "customizeDescription": "Seleccione las cookies que desea aceptar:",
+    "googleCookies": "Cookies de Google",
+    "facebookCookies": "Cookies de Facebook",
+    "twitterCookies": "Cookies de Twitter",
+    "googleDescription": "Las cookies empleadas por Google permiten el seguimiento y análisis del comportamiento del usuario en nuestro sitio web, con el fin de mejorar la experiencia del usuario y optimizar nuestros servicios.",
+    "facebookDescription": "Las cookies de Facebook permiten la personalización de anuncios y contenidos en función de las interacciones del usuario con nuestro sitio web, con el objetivo de mejorar la relevancia de los mensajes publicitarios.",
+    "twitterDescription": "Las cookies utilizadas por Twitter facilitan la integración de contenido en redes sociales y permiten realizar un seguimiento del comportamiento del usuario para mejorar la interacción y la funcionalidad de nuestra plataforma.",
+    "acceptGoogle": "Aceptar Cookies de Google",
+    "acceptFacebook": "Aceptar Cookies de Facebook",
+    "acceptTwitter": "Aceptar Cookies de Twitter",
+    "savePreferences": "Guardar preferencias"
+  }
+}

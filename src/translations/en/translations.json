@@ -1,0 +1,46 @@
+{
+  "404": {
+    "notFound": "Page Not Found",
+    "description": "Oops! It seems that you have reached a non-existent page. We're sorry, but the page you're looking for is not available. We invite you to return to the main page or contact us through our support channels for assistance.",
+    "home": "Back to Home",
+    "contact": "Contact us"
+  },
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "footer": {
+    "by": "By Deco31416 | V-0.0.1",
+    "website": "Website",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "demoText": "© {{year}} For demonstration only"
+  },
+  "home": {
+    "welcome": "Welcome to FacialTrustPay",
+    "description": "This is an MVP designed to facilitate micropayments using facial recognition, leveraging blockchain technology to ensure secure and fast transactions. Learn more at ",
+    "learnMoreButton": "Learn More on Medium",
+    "connectWalletButton": "Connect MetaMask",
+    "connectedStatus": "You are connected",
+    "disconnectedStatus": "You are not connected"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "description": "When you visit our website and provide your consent, we use our own and third-party cookies, as well as similar technologies, to improve your experience, analyze traffic, ensure security, and for marketing purposes. If you do not select any option, the banner will reappear each time you visit our site. For more information on cookies, see our Privacy Policy.",
+    "customize": "Customize",
+    "acceptAll": "Accept All",
+    "customizeTitle": "Customize Cookies",
+    "customizeDescription": "Select the cookies you want to accept:",
+    "googleCookies": "Google Cookies",
+    "facebookCookies": "Facebook Cookies",
+    "twitterCookies": "Twitter Cookies",
+    "googleDescription": "Google cookies allow tracking and analysis of user behavior on our website to improve user experience and optimize our services.",
+    "facebookDescription": "Facebook cookies enable ad personalization and content based on user interactions with our site, enhancing the relevance of advertising messages.",
+    "twitterDescription": "Twitter cookies facilitate social media content integration and allow user behavior tracking to improve platform interaction and functionality.",
+    "acceptGoogle": "Accept Google Cookies",
+    "acceptFacebook": "Accept Facebook Cookies",
+    "acceptTwitter": "Accept Twitter Cookies",
+    "savePreferences": "Save Preferences"
+  }
+}

@@ -1,0 +1,64 @@
+ /* src/components/modals/styles.module.css */
+
+.none {
+  display: none;
+}
+.wellcome {
+  position: relative;
+  width: 22rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 1px solid #594a90;
+  background-color: #161321;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  padding: 1rem;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+.wellcome span {
+  margin: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.x {
+  position: absolute;
+  cursor: pointer;
+  width: 1.5rem;
+  height: auto;
+  top: 1rem;
+  right: 1rem;
+}
+.x:hover {
+  scale: 1.025;
+}
+.wellcome p {
+  margin: 0;
+  color: #d1c4ff;
+  font-family: Poppins;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: -1.5rem;
+}
+.wellcome img {
+  width: 250px;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .wellcome {
+    width: 20.25rem;
+  }
+  .wellcome img {
+    display: none;
+  }
+}
