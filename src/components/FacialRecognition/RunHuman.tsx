@@ -12,7 +12,6 @@ const config: Partial<Config> = {
     mesh: { enabled: true },
     iris: { enabled: true },
     emotion: { enabled: true },
-    gender: { enabled: true },
   },
   body: { enabled: false },
   hand: { enabled: false },
