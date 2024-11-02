@@ -34,9 +34,6 @@ FacialTrustPay introduces a revolutionary approach to digital payments:
 - **Binance Smart Chain (BSC) Testnet**: Pre-configured testnet for testing and development before mainnet deployment.
 - **@vladmandic/human**: Library for advanced facial recognition and biometric analysis.
 
-## SEO Optimization
-SEO optimization tags and a clear content structure were added to enhance search engine indexing.
-
 ## Deployment
 FacialTrustPay is currently deployed on the Binance Smart Chain Testnet for testing and development. The contracts are available for review and audit in the repository.
 
