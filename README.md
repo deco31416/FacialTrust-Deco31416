@@ -1,3 +1,4 @@
+![deco31416](https://github.com/deco31416/FacialTrustPay-Deco31416/blob/main/public/FacialTrustPay.svg)
 
 # FacialTrustPay - MVP for Micropayments with Facial Recognition and Blockchain
 
