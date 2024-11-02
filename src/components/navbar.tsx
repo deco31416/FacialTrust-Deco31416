@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
               {t('navbar.home')}
             </a>
             <a
-              href="https://github.com/deco31416?tab=repositories"
+              href="https://github.com/deco31416/FacialTrustPay-Deco31416"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white dark:text-gray-100 hover:text-gray-300 dark:hover:text-gray-400 text-lg font-medium"
