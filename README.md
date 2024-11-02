@@ -2,7 +2,7 @@
 
 # FacialTrustPay
 
-### MVP for Micropayments with Facial Recognition and Blockchain
+### MVP for Micropayments with Facial Recognition in Blockchain
 
 FacialTrustPay is an MVP designed to facilitate micropayments using facial recognition and blockchain technology. This solution ensures fast and secure transactions while prioritizing user privacy. Unlike other solutions that store biometric data, FacialTrustPay generates a unique facial hash that identifies users without storing sensitive information, such as facial images.
 
@@ -55,7 +55,7 @@ FacialTrustPay is currently deployed on the Binance Smart Chain Testnet for test
    ```
 
 ## License
-This project is protected under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en), and the underlying source code used to format and display this content is licensed under the [MIT license](https://github.com/deco31416/Boilerplate-Deco31416).
+This project is protected under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en), and the underlying source code used to format and display this content is licensed under the [MIT license](https://github.com/deco31416/FacialTrustPay-Deco31416/blob/main/LICENSE.txt).
 
 ## Developed by
 **[Deco31416](https://github.com/deco31416)**  
