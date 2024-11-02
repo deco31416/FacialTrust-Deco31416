@@ -15,8 +15,7 @@ const TokenStats: React.FC = () => {
           Estadísticas de Token
         </h1>
         <p className="text-xl mb-8 text-left text-gray-700 dark:text-gray-300 leading-relaxed">
-          Aquí se mostrarán las estadísticas del token con gráficos e
-          información detallada.
+          Here the statistics of the token will be displayed with graphs and detailed information.
           <a
             href="https://deco31416.com"
             target="_blank"
@@ -38,7 +37,7 @@ const TokenStats: React.FC = () => {
               )
             }
           >
-            Hola mundo
+            Hello world
           </Button>
           <ConnectButton.Custom>
             {({ openConnectModal }) => (
@@ -47,7 +46,7 @@ const TokenStats: React.FC = () => {
                 onClick={openConnectModal}
                 className="px-6 py-3 text-lg rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-100"
               >
-                Lee mas
+                Connect
               </Button>
             )}
           </ConnectButton.Custom>

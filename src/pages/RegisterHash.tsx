@@ -12,10 +12,10 @@ const RegisterHash: React.FC = () => {
       {/* Contenedor principal con altura mínima */}
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg w-full max-w-4xl min-h-[500px] p-8 md:p-12 lg:p-16  md:mt-22 text-center overflow-auto">
         <h1 className="text-4xl font-bold mb-6 text-center text-gray-800 dark:text-gray-100">
-        Registro de Hash Facial
+          Facial Hash Registration
         </h1>
         <p className="text-xl mb-8 text-left text-gray-700 dark:text-gray-300 leading-relaxed">
-        Aquí puedes registrar tu hash facial para futuras validaciones de identidad.
+          Here you can register your face hash for future identity validation.
           <a
             href="https://deco31416.com"
             target="_blank"
@@ -37,7 +37,7 @@ const RegisterHash: React.FC = () => {
               )
             }
           >
-            Hola mundo
+            Hello world
           </Button>
           <ConnectButton.Custom>
             {({ openConnectModal }) => (
@@ -46,7 +46,7 @@ const RegisterHash: React.FC = () => {
                 onClick={openConnectModal}
                 className="px-6 py-3 text-lg rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-100"
               >
-                Lee mas
+                Connect
               </Button>
             )}
           </ConnectButton.Custom>
