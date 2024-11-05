@@ -1,12 +1,13 @@
+// src/components/web3/configs/tokens.ts
 import { Token } from "../types";
 import { bscTestnet } from "./chains";
 
 // import { bsc, bscTestnet } from "./chains";
 
 export const testToken: Token = {
-  contractAddress: "0x04C385F999dDDc8be75A4384C26864abE496139A",
-  symbol: "MicaT",
-  name: "MicaUSD-T",
+  contractAddress: "0x15d2d598385c543842a719c79bb2df9f8360b005",
+  symbol: "FTP-T",
+  name: "FacialPay-T",
   decimals: 6,
   logoUrl:
     "https://res.cloudinary.com/dtwcswdd8/image/upload/v1729440270/mica-usd.png",
@@ -15,9 +16,9 @@ export const testToken: Token = {
 };
 
 /* export const testTokenMainnet: Token = {
-  contractAddress: "0x04C385F999dDDc8be75A4384C26864abE496139A",
-  symbol: "MicaT",
-  name: "MicaUSD-T",
+  contractAddress: "0x15d2d598385c543842a719c79bb2df9f8360b005",
+  symbol: "FTP-T",
+  name: "FacialPay-T",
   decimals: 6,
   logoUrl:
     "https://res.cloudinary.com/dtwcswdd8/image/upload/v1729440270/mica-usd.png",

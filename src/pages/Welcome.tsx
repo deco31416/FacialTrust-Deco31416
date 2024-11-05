@@ -1,7 +1,6 @@
 // src/pages/Welcome.tsx
 import React, { useEffect, useState } from 'react';
 import Button from '@/components/ui/button';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useTranslation } from 'react-i18next';
 import InitWebCam from '@/components/FacialRecognition/InitWebCam';
 import RunHuman from '@/components/FacialRecognition/RunHuman';
@@ -23,8 +22,8 @@ const Welcome: React.FC<WelcomeProps> = ({ isActive }) => {
 
   return (
     <div className="relative flex flex-col items-center justify-center dark:bg-gray-900">
-      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg w-full h-full flex flex-col justify-center items-center text-center">
-      <h1 className="text-4xl font-bold text-center text-gray-800 p-8 md:p-12 lg:p-10 dark:text-gray-100">
+      <div className="bg-white dark:bg-gray-800 shadow-lg w-full h-full flex flex-col justify-center items-center text-center">
+        <h1 className="text-4xl font-bold text-center text-gray-800 p-8 md:p-12 lg:p-10 dark:text-gray-100">
           {t('home.welcome')}
         </h1>
         <p className="text-xl mb-8 text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -58,17 +57,13 @@ const Welcome: React.FC<WelcomeProps> = ({ isActive }) => {
           >
             {t('home.learnMoreButton')}
           </Button>
-          <ConnectButton.Custom>
-            {({ openConnectModal }) => (
-              <Button
-                variant="outline"
-                onClick={openConnectModal}
-                className="px-6 py-3 text-lg rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-100"
-              >
-                {t('home.connectWalletButton')}
-              </Button>
-            )}
-          </ConnectButton.Custom>
+          <Button
+            variant="outline"
+            onClick={() => window.open("https://t.me/deco31416", "_blank", "noopener,noreferrer")}
+            className="px-6 py-3 text-lg rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-100"
+          >
+            {t('home.TelegramButton')}
+          </Button>
         </div>
       </div>
     </div>

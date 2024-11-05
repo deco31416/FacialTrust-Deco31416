@@ -21,7 +21,7 @@
     "welcome": "Bienvenido a FacialTrustPay",
     "description": "Este es un MVP diseñado para facilitar micropagos mediante el reconocimiento facial, aprovechando la tecnología blockchain para garantizar transacciones seguras y rápidas. Más información en ",
     "learnMoreButton": "Lee Más en Medium",
-    "connectWalletButton": "Conectar MetaMask",
+    "TelegramButton": "Contact on Telegram",
     "connectedStatus": "Estás conectado",
     "disconnectedStatus": "No estás conectado"
   },
@@ -42,5 +42,11 @@
     "acceptFacebook": "Aceptar Cookies de Facebook",
     "acceptTwitter": "Aceptar Cookies de Twitter",
     "savePreferences": "Guardar preferencias"
+  },
+  "menu": {
+    "home": "Inicio",
+    "token": "Token",
+    "registerHash": "Registra tu Hash",
+    "paymentDemo": "Pago Demo"
   }
 }
