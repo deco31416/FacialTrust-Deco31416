@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { ThemeProvider } from 'next-themes';
 
 type Tab = {
-  id: string;
+  id: string; 
   label: string;
   content: React.ReactNode;
 };
@@ -43,14 +43,14 @@ const TabbedMenu: React.FC = () => {
 
   return (
     <ThemeProvider attribute="class" defaultTheme="system">
-      <div className="relative max-w-4xl mx-auto mt-10 p-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl">
+      <div className="relative max-w-4xl w-full mx-auto mt-14 p-6 bg-white dark:bg-gray-800 shadow-lg rounded-2xl">
         {/* Pestañas de navegación */}
-        <div className="flex space-x-4 border-b border-gray-300 dark:border-gray-700 mb-4">
+        <div className="flex overflow-x-auto space-x-4 border-b border-gray-300 dark:border-gray-700 mb-4 scrollbar-hide">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`relative px-4 py-2 font-medium transition-all duration-300 ease-in-out rounded-md ${
+              className={`flex-shrink-0 px-3 py-2 md:px-4 text-sm md:text-base font-medium transition-all duration-300 ease-in-out rounded-md ${
                 activeTab === tab.id
                   ? 'bg-[#f6851b] text-white shadow-md mb-1'
                   : 'text-gray-600 dark:text-gray-300 hover:text-[#f6851b] hover:bg-gray-100 dark:hover:bg-gray-700 mb-1'

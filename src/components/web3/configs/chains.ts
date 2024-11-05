@@ -3,8 +3,7 @@ import { Chain } from "@rainbow-me/rainbowkit";
 
 const bscTestnet = {
   id: 97,
-  name: "Binance Smart Chain Testnet",
-  iconUrl: "https://bscscan.com/images/logo-bscscan.svg",
+  name: "tBSC",
   testnet: true,
   nativeCurrency: {
     decimals: 18,
@@ -18,7 +17,7 @@ const bscTestnet = {
     default: {
       name: "BscScan Testnet",
       url: "https://testnet.bscscan.com",
-      apiUrl: "https://api-testnet.bscscan.com/api",
+      apiUrl: "https://testnet.bscscan.com/api",
     },
   },
 } as const satisfies Chain;
@@ -26,7 +25,6 @@ const bscTestnet = {
 /* const bsc = {
   id: 56,
   name: "Binance Smart Chain",
-  iconUrl: "https://bscscan.com/images/logo-bscscan.svg",
   testnet: false,
   nativeCurrency: {
     decimals: 18,

@@ -4,6 +4,7 @@ import Button from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
 import BalanceCard from '@/components/TokenStats/BalanceCard';
 import SupplyCard from '@/components/TokenStats/SupplyCard';
+import FaucetCard from '@/components/TokenStats/FaucetCard';
 
 const TokenStats: React.FC = () => {
   const { t } = useTranslation();
@@ -26,13 +27,17 @@ const TokenStats: React.FC = () => {
             deco31416.com
           </a>
         </p>
-        <div className="flex flex-col items-center space-y-4 md:space-y-0 md:flex-row md:justify-center md:space-x-4 mt-8">
-          {/* Botón para Medium con enlace en una nueva pestaña */}
 
+         {/* Sección de tarjetas */}
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <SupplyCard />
           <BalanceCard />
-          
-          {/* <Button
+          <FaucetCard />
+        </div>
+
+        {/* Sección de botones */}
+        <div className="flex flex-col items-center space-y-4 md:space-y-0 md:flex-row md:justify-center md:space-x-4 mt-8">
+          <Button
             className="px-6 py-3 text-lg rounded-full bg-blue-600 text-white hover:bg-blue-700"
             onClick={() =>
               window.open("https://medium.com/@deco31416", "_blank", "noopener,noreferrer")
@@ -46,7 +51,7 @@ const TokenStats: React.FC = () => {
             className="px-6 py-3 text-lg rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-100"
           >
             {t('home.TelegramButton')}
-          </Button> */}
+          </Button>
         </div>
       </div>
     </div>

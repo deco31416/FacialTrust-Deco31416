@@ -2,8 +2,9 @@
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import {
   bsc,
-  bscTestnet,
 } from 'wagmi/chains';
+import { bscTestnet } from '@/components/web3/configs/chains';
+
 
 const enableTestnets = true; // Cambia esto a `false` si no quieres mostrar las testnets
 
