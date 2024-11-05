@@ -13,9 +13,9 @@ const formatNumber = (num: number): string => {
   let formattedNum: string;
 
   if (num >= 1_000_000_000) {
-    formattedNum = (num / 1_000_000_000).toFixed(2) + 'B';
+    formattedNum = (num / 1_000_000_000).toFixed(2) + 'M';
   } else if (num >= 1_000_000) {
-    formattedNum = (num / 1_000_000).toFixed(2) + 'M';
+    formattedNum = (num / 1_000_000).toFixed(2) + 'k';
   } else if (num >= 1_000) {
     formattedNum = (num / 1_000).toFixed(2) + 'K';
   } else {
@@ -24,10 +24,8 @@ const formatNumber = (num: number): string => {
 
   // Toma los tres primeros dígitos antes del punto decimal
   const [integerPart] = formattedNum.split('.');
-  return integerPart.length >= 3 ? integerPart.slice(0, 3) + formattedNum.slice(formattedNum.length - 1) : formattedNum;
+  return integerPart.length >= 7 ? integerPart.slice(0, 7) + formattedNum.slice(formattedNum.length - 1) : formattedNum;
 };
-
-
 
 
 const SupplyCard: React.FC = () => {
